@@ -1,0 +1,380 @@
+db.product.find().pretty();
+{
+    "_id" : ObjectId("5bb6eb7e4faf4111950977db"),
+    "pid" : 1,
+    "sid" : 5001,
+    "cost" : 95000,
+    "pname" : "iPhone X",
+    "category" : "electronics",
+    "description" : {
+        "type" : "mobile",
+        "brand" : "Apple",				
+        "durability" : 3
+    },
+    "tags" : [
+        "iphone",
+        "apple",
+        "iOS"
+    ],
+    "avg_rating" : 0.4
+}
+{
+    "_id" : ObjectId("5bb6fa934faf41163971c496"),
+    "pid" : 2,
+    "sid" : 5002,
+    "cost" : 45000,
+    "pname" : "sony bravia",
+    "category" : "electronics",
+    "description" : {
+        "type" : "tv",
+        "brand" : "sony",
+        "durability" : 5
+    },
+    "tags" : [
+        "sony",
+        "tv",
+        "sony bravia"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9ac724faf41142312cbfb"),
+    "pid" : 3,
+    "sid" : 5002,
+    "cost" : 30000,
+    "pname" : "canon 6d",
+    "category" : "electronics",
+    "description" : {
+        "type" : "camera",
+        "brand" : "canon",
+        "durability" : 3
+    },
+    "tags" : [
+        "canon",
+        "camera",
+        "dslr"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9afcb4faf4115d3f8d3f1"),
+    "pid" : 4,
+    "sid" : 5003,
+    "cost" : 4000,
+    "pname" : "ecook",
+    "category" : "electronics",
+    "description" : {
+        "type" : "microwave",
+        "brand" : "LG",
+        "durability" : 3
+    },
+    "tags" : [
+        "microwave",
+        "lg",
+        "cooking",
+        "LG"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9b0a24faf41168184d712"),
+    "pid" : 5,
+    "sid" : 5002,
+    "cost" : 320,
+    "pname" : "sandisk 32gb",
+    "category" : "electronics",
+    "description" : {
+        "type" : "pendrive",
+        "brand" : "sandisk",
+        "durability" : 1
+    },
+    "tags" : [
+        "pendrive",
+        "sandisk",
+        "computer devices",
+        "32gb"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9b1644faf411711240518"),
+    "pid" : 6,
+    "sid" : 5003,
+    "cost" : 2000,
+    "pname" : "inalsa",
+    "category" : "electronics",
+    "description" : {
+        "type" : "iron",
+        "brand" : "oscar",
+        "durability" : 3
+    },
+    "tags" : [
+        "iron",
+        "oscar",
+        "home",
+        "inalsa"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9ced8a7986c1bda92c2cc"),
+    "pid" : 7,
+    "sid" : 5002,
+    "cost" : 3000,
+    "pname" : "soundmax",
+    "category" : "electronics",
+    "description" : {
+        "type" : "speaker",
+        "brand" : "beats",
+        "durability" : 2
+    },
+    "tags" : [
+        "speaker",
+        "beats",
+        "wireless",
+        "bluetooth speaker"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d121a7986c1d85f97fb5"),
+    "pid" : 8,
+    "sid" : 5003,
+    "cost" : 6000,
+    "pname" : "hp p1108",
+    "category" : "electronics",
+    "description" : {
+        "type" : "printer",
+        "brand" : "hp",
+        "durability" : 3
+    },
+    "tags" : [
+        "p1108",
+        "laser jet",
+        "printer",
+        "hp"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d216a7986c1e68513c90"),
+    "pid" : 9,
+    "sid" : 5002,
+    "cost" : 8000,
+    "pname" : "ultrasound",
+    "category" : "electronics",
+    "description" : {
+        "type" : "headphones",
+        "brand" : "bose",
+        "durability" : 2
+    },
+    "tags" : [
+        "bose",
+        "headphones",
+        "wireless",
+        "music"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d37ba7986c1fc2d3c4e9"),
+    "pid" : 10,
+    "sid" : 5003,
+    "cost" : 56000,
+    "pname" : "spectre",
+    "category" : "electronics",
+    "description" : {
+        "type" : "laptop",
+        "brand" : "hp",
+        "durability" : 5
+    },
+    "tags" : [
+        "laptop",
+        "hp",
+        "hp spectre"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d6e64faf4121eb11df9c"),
+    "pid" : 11,
+    "sid" : 5008,
+    "cost" : 200,
+    "pname" : "regenerist",
+    "category" : "beautyandhealth",
+    "description" : {
+        "brand" : "olay",
+        "netwt" : 48
+    },
+    "tags" : [
+        "olay regenerist",
+        "olay",
+        "face cream"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d7b04faf412261c74884"),
+    "pid" : 12,
+    "sid" : 5008,
+    "cost" : 100,
+    "pname" : "himalaya facewash",
+    "category" : "beautyandhealth",
+    "description" : {
+        "brand" : "himalaya",
+        "netwt" : 200
+    },
+    "tags" : [
+        "facewash",
+        "neem",
+        "skin"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d93b4faf41230cdfce07"),
+    "pid" : 13,
+    "sid" : 5007,
+    "cost" : 100,
+    "pname" : "elseve",
+    "category" : "beautyandhealth",
+    "description" : {
+        "brand" : "l'oreal",
+        "netwt" : 400
+    },
+    "tags" : [
+        "shampoo",
+        "l'oreal",
+        "hair"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9d9c84faf412379278ab0"),
+    "pid" : 14,
+    "sid" : 5007,
+    "cost" : 4000,
+    "pname" : "mb whey",
+    "category" : "beautyandhealth",
+    "description" : {
+        "brand" : "muscleblaze",
+        "netwt" : 2000
+    },
+    "tags" : [
+        "whey protein",
+        "muscleblaze",
+        "body building"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9e9224faf412877d53825"),
+    "pid" : 15,
+    "sid" : 5006,
+    "cost" : 200,
+    "pname" : "a study in scarlet",
+    "category" : "books",
+    "description" : {
+        "isbn" : 1235,
+        "author" : "arthur conan doyle"
+    },
+    "tags" : [
+        "books",
+        "arthur conan doyle",
+        "mystery",
+        "sherlock holmes"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9ee544faf412a7749119b"),
+    "pid" : 16,
+    "sid" : 5001,
+    "cost" : 300,
+    "pname" : "chamber of secrets",
+    "category" : "books",
+    "description" : {
+        "isbn" : 3455,
+        "author" : "j.k. rowling"
+    },
+    "tags" : [
+        "books",
+        "jk rowling",
+        "fantasy",
+        "harry potter"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9eec34faf412ab32d55da"),
+    "pid" : 17,
+    "sid" : 5001,
+    "cost" : 300,
+    "pname" : "deathly hallows",
+    "category" : "books",
+    "description" : {
+        "isbn" : 3455,
+        "author" : "j.k. rowling"
+    },
+    "tags" : [
+        "books",
+        "jk rowling",
+        "fantasy",
+        "harry potter"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9ef7c4faf412b387dd2f8"),
+    "pid" : 18,
+    "sid" : 5006,
+    "cost" : 450,
+    "pname" : "inferno",
+    "category" : "books",
+    "description" : {
+        "isbn" : 5678,
+        "author" : "dan brown"
+    },
+    "tags" : [
+        "books",
+        "dan brown",
+        "mystery"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9f05a4faf412bba365570"),
+    "pid" : 19,
+    "sid" : 5006,
+    "cost" : 350,
+    "pname" : "let us c",
+    "category" : "books",
+    "description" : {
+        "isbn" : 9878,
+        "author" : "yashwant kanetkar"
+    },
+    "tags" : [
+        "books",
+        "c",
+        "coding"
+    ],
+    "avg_rating" : 0
+}
+{
+    "_id" : ObjectId("5bb9f17d4faf412c36243968"),
+    "pid" : 20,
+    "sid" : 5004,
+    "cost" : 2300,
+    "pname" : "commuter",
+    "category" : "clothing",
+    "description" : {
+        "material" : "denim",
+        "brand" : "levis"
+    },
+    "tags" : [
+        "levis",
+        "jeans",
+        "clothes"
+    ],
+    "avg_rating" : 0
+}
